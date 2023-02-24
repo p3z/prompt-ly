@@ -1,4 +1,4 @@
-# prompt-ly (A personal prompt syntax for AI interfaces that take text prompts)
+# prompt-ly
 Many AI interfaces take text prompts from a human user and output a response. From experimenting on the daily over the last 6 months, I've found that it's a pain in the proverbial to keep track of valuable prompts that ellicit certain responses.
 
 For example, let's say we're using ChatGPT or Midjourney, we might discover a particular way of describing things returns predictable output. Thus, we may desire to keep track of such prompts or snippets of prompts for future riffing and further iteration. The problem is you end up with a word doc (if your inclination is anything like mine!) with a list of text with bits bolded and highlighted a hundred times over for different scenarios. That may be fine for you, if so woohoo! Have at it.
