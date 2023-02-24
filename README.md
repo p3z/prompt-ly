@@ -54,6 +54,7 @@ Blockchaining, simply lists constant blocks alongside ints to establish and pres
 
 ### Alternates
 You may wish to list variables next to each other to indicate that are interchangeable. Use this syntax so that you can list them all together and yet keep them separate from each other
+```
 ???---
 I AM ONE POSSIBLE VARIABLE
 ???
@@ -61,7 +62,7 @@ I AM ANOTHER POSSIBLE VARIANT
 ???
 I AM YET ANOTHER
 ???---
-
+```
 ### Source blocks
 ```
 ***
