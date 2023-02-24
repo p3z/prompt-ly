@@ -32,9 +32,11 @@ Prompts written inside these tags should never change.
 Prompts written inside these tags are subject to change and can be nested inside block tags
 
 ### Nested blocks
+```
 <<<
 	THIS IS AN ???EXAMPLE??? THAT USES A VARIABLE
 <<<
+```
 Variable blocks can be nested inside of Constants but not vice versa
 
 ### Block-Chaining
@@ -59,3 +61,21 @@ I AM ANOTHER POSSIBLE VARIANT
 ???
 I AM YET ANOTHER
 ???---
+
+### Source blocks
+```
+***
+I AM SOURCE MATERIAL, YOU KNOW I HAVE NOT CHANGED
+***
+```
+Use these tags to keep track of original prompts you want to iterate on, as distinct from the overall prompt you're building using the rest of the syntax
+
+### Comments
+```
+<<<
+	I'm a random prompt
+		+++ Im a comment, you can safely ignore me
+	This prompt now continues
+<<<
+```
+Just like in other languages, handy to be able to annotate your scripts with comments that you can safely ignore from the main working body of your script
